@@ -1,5 +1,10 @@
 @charset "UTF-8";
+@font-face {
+    font-family: "Cordel";
+    src: url(fotns/cordel_encarnado/Cordel\ Encarnado.otf);
+    
 
+}
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +22,8 @@ header{
 }
 
 header>h1{
+    font-family: Cordel;
+    font-size: 7vw;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -40,6 +47,8 @@ section{
     padding-bottom: 10vh;
     padding-left: 10px;
     line-height: 2em;
+    font-size: 4vw;
+    
 }
 .normal{
     background-color: white;
@@ -53,7 +62,7 @@ section{
 .imagem>p{
     background-color: rgba(0, 0, 0, 0.313);
     display: inline-block;
-    width: 400px;
+    
 }
 
 footer{
