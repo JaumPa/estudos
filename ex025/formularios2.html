@@ -7,6 +7,37 @@
     <title>teste de formulário</title>
 </head>
 <body>
-    
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome"></label>
+            <input type="text" name="nome" id="inome" maxlength="30" placeholder="Nome completo" required autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">media</label>
+            <input type="number" name="meda" id="imedia" min="1"  step="0.5" max="30" placeholder="de 0 a 10">
+        </p>
+
+        <p>
+            <label for="idia">dia da prova</label>
+            <input type="date" name="dia" id="idia" value="2022-09-27">
+        </p>
+        <p>
+            <label for="ihora">hora da prova</label>
+            <input type="time" name="hora" id="ihora" value="16-00">
+        </p>
+        <p>
+            <label for="iperiodo">periodo letivo</label>
+            
+            <input type="month" name="mes" id="iperiodo" value="2022-10">
+            
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="clear">
+        </p>
+
+
+    </form>
 </body>
 </html>
